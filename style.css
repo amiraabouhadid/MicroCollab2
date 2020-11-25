@@ -1,21 +1,34 @@
 body{
-  color: blue;
+  background-color: AliceBlue;
+  text-align: center;
+  margin: 50px;
+  justify-content: center;
 }
 
 h1{
   color: black;
 
 }
-a{
+.nav-link{
   color: red;
-}
+  margin-left: 50px;
+  text-align: right;
+  padding: 30px;
+  }
 form{
   size: 40px 40px 40px 40px;
+  position: center;
+  margin: 50px;
 }
 nav{
   position: fixed;
+  background-color: aqua;
 }
-#form{
-  display: flex;
-
+#video{
+  z-index: 10px;
+}
+.flex-container{
+  display: flexbox;
+  flex-direction: row;
+  justify-content: center;
 }
