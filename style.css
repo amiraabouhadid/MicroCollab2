@@ -1,5 +1,5 @@
 body{
-  color: blue;
+  background-color: blue;
 }
 
 h1{
@@ -14,8 +14,8 @@ form{
 }
 nav{
   position: fixed;
+  justify: right; 
 }
 #form{
   display: flex;
-
 }
