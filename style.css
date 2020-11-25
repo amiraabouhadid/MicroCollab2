@@ -1,0 +1,21 @@
+body{
+  color: blue;
+}
+
+h1{
+  color: black;
+
+}
+a{
+  color: red;
+}
+form{
+  size: 40px 40px 40px 40px;
+}
+nav{
+  position: fixed;
+}
+#form{
+  display: flex;
+
+}
