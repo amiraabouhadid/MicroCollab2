@@ -5,7 +5,7 @@ body{
   justify-content: center;
 }
 
-h1{
+header{
   color: black;
 
 }
@@ -18,7 +18,7 @@ h1{
 form{
   size: 40px 40px 40px 40px;
   position: center;
-  margin: 50px;
+  margin: 150px 50px 50px 50px;
 }
 nav{
   position: fixed;
