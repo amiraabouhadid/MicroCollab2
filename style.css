@@ -19,15 +19,22 @@ form{
   position: center;
   margin: 50px 50px 50px 50px;
 }
-nav{
+#nav-bar{
   position: fixed;
   background-color: aqua;
+  width: fit-content;
+  top: 0px;
 }
 #video{
   z-index: 10px;
 }
 .flex-container{
-  display: flexbox;
+  display: flex;
   flex-direction: row;
   justify-content: center;
+}
+@media(max-width: 800px){
+  body{
+    background-color: burlywood;
+  }
 }
